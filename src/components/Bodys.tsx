@@ -9,7 +9,6 @@ function Bodys(){
     return (
     <Fragment>
             <Navbar></Navbar>
-
             <Titles>
             <label className="l1">Contacta a tu asesor/a verificado/a</label>
             <label className="l2">Un lugar transparente.</label>

@@ -50,7 +50,7 @@ const BgDiv = styled.div`
   
   &.active{
     
-    border-radius: 0 0 90% 0;
+    border-radius: 0 0 75% 0;
     top: 0;
     left: 0;
     width: 100%;
@@ -100,7 +100,7 @@ const NavContainer = styled.nav`
         text-align: center;
 
         a{
-            color:black;
+            color: white;
             font-size: 2rem;
             display:block;
             &:hover{
@@ -117,15 +117,17 @@ const NavContainer = styled.nav`
             font-size: 1.3rem;
             color:white;
             display: inline;
+            font-weight: bold;
         }
 
        } 
     }
 
     .Links.Active{
+        color: white;
         margin-left: auto;
         margin-right: auto;
-        top: 32%;
+        top: 31%;
         left: 0;
         right: 0;
         display:block;
@@ -135,7 +137,6 @@ const NavContainer = styled.nav`
         position:fixed;
         z-index: 10;
 
-
         a{
         color: white;
         margin-left: 2vh;
@@ -143,8 +144,9 @@ const NavContainer = styled.nav`
         display: block;
         align-items: center;
         
+font-weight: bold;
         cursor: pointer;
-
+        transition: all .9s ease ;
 
           &:hover{
                 color: bisque;
