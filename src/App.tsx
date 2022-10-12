@@ -4,6 +4,7 @@ import './App.css';
 import { Terms } from './components/Terms';
 import Navbar from './components/Navbar';
 import Bodys from './components/Bodys';
+import Cards from './components/Cards';
 
 
 
@@ -21,6 +22,7 @@ function App() {
 
       <Bodys></Bodys>
       <Terms></Terms>   
+      <Cards></Cards>
       </Fragment>
 
 

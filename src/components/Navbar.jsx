@@ -144,7 +144,7 @@ const NavContainer = styled.nav`
         display: block;
         align-items: center;
         
-font-weight: bold;
+        font-weight: bold;
         cursor: pointer;
         transition: all .9s ease ;
 
