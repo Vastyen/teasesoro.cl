@@ -8,13 +8,14 @@ export default function Cards(){
         name: "Bastián Escribano",
         area: "Informática",
         description: "Ingeniero Informático",
-        age: 22,
+        contact: "+56 9 46241025",
     })
 
     return(
-        <Card name={p1.name}></Card>
-        
-
+        <>
+        <Card name={p1.name} area={p1.area} description={p1.description} contact={p1.contact}></Card>
+   
+        </>
     )
     
 
