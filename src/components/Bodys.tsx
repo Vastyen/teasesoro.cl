@@ -33,7 +33,6 @@ const Titles = styled.div`
         font-size: 5vh;
         color: rgb(255, 255, 255);
         display:block;
-        font-weight: bold;
         font-family: 'Noto Sans Mono', monospace;
         
     }
@@ -50,8 +49,6 @@ const Titles = styled.div`
         font-size:2.5vh;
         display:block;
         color: #E3C19C;
-                font-weight: bold;
-
         font-family: 'Noto Sans Mono', monospace;
     }
 

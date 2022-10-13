@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 
+
 Body{
   background-color: rgb(44, 46, 36);
 }
@@ -8,6 +9,7 @@ Body{
 *{
     font-family: 'Noto Sans Mono', monospace;
     color: white;
+    scroll-behavior: smooth;
 }
 
 

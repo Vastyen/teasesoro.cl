@@ -17,8 +17,9 @@ function Navbar(){
                 <label className="titleNav"></label>
                 <div className={`Links ${clicked ? 'Active' : ''}`}>
                     <a href="#">Inicio</a>
+                    <a href="#publicate">Publícate</a>
                     <a href="#condiciones">Términos de Uso</a>
-                    <a href="#talk">Publícate</a>
+               
                 </div>
 
                 <div className="Burguer">
@@ -45,7 +46,8 @@ const BgDiv = styled.div`
   left: -1000px;
   width: 100%;
   height: 100%;
-  z-index: 0;
+  z-index: 10;
+
   transition: all .6s ease ;
   
   &.active{
@@ -61,7 +63,7 @@ const BgDiv = styled.div`
 
 const NavContainer = styled.nav`
    
-    z-index: 100;
+    z-index: 10000;
     color: white;
     padding-top: 2vh;
     padding-left: 3vh;
@@ -117,7 +119,6 @@ const NavContainer = styled.nav`
             font-size: 1.3rem;
             color:white;
             display: inline;
-            font-weight: bold;
         }
 
        } 
@@ -135,7 +136,8 @@ const NavContainer = styled.nav`
         height: 100%;
         text-align:center;
         position:fixed;
-        z-index: 10;
+        z-index: 10000;
+
 
         a{
         color: white;
@@ -144,7 +146,6 @@ const NavContainer = styled.nav`
         display: block;
         align-items: center;
         
-        font-weight: bold;
         cursor: pointer;
         transition: all .9s ease ;
 
