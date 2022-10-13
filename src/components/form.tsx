@@ -63,7 +63,7 @@ const FormStyle = styled.div`
     width: 60vw;
     margin-inline: 20vw;
     font-family: 'Noto Sans Mono', monospace;
-    height: 70vh;
+    height: 80vh;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
     padding: 4vh;
