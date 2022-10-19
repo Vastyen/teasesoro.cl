@@ -99,10 +99,10 @@ const CardStyled = styled.label`
 
     @media(max-width: 1024px){
         display:block;
-        width: 70vw;
+        width: 90vw;
         margin: 0 auto;
         margin-bottom: 3vh;
-        margin-inline: 15vw;
+        margin-inline: 5vw;
     }
 
 

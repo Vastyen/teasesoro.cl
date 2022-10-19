@@ -42,8 +42,8 @@ export default Navbar
 const BgDiv = styled.div`
   background-color: #222;
   position: fixed;
-  top: -1000px;
-  left: -1000px;
+  top: -600vh;
+  left: -800vw;
   width: 100%;
   height: 100%;
   z-index: 10;
@@ -96,8 +96,8 @@ const NavContainer = styled.nav`
 
     .Links{
         position: absolute;
-        top: -700px;
-        left: -2000px;
+        top: -1000vh;
+        left: -8000vw;
         margin-inline: auto;
         text-align: center;
 

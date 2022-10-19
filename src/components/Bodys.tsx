@@ -11,8 +11,8 @@ function Bodys(){
             <Navbar></Navbar>
             <Titles>
             <label className="l1">Contacta a tu asesor/a verificado/a</label>
-            <label className="l2">Un lugar transparente.</label>
-            <label className="l3">Sin comisiones ni intermediarios.</label>
+            <label className="l2">Un lugar transparente,</label>
+            <label className="l3">Gratuito y confiable.</label>
             </Titles>
     </Fragment>
 
