@@ -9,7 +9,7 @@ export const Form = () =>{
     return (<Fragment>
         <Termsof>
         <label id="publicate" className="titlelabel">Publícate</label>
-        <label className="bodylabel">Para publicar tu aviso de asesorías en teasesoro.cl debes agendar una reunión para certificar tu identidad. Esto es a través de una reunión a través de Zoom o Google Meet.</label>
+        <label className="bodylabel">Si eres estudiante de la Universidad de Santiago de Chile y quieres ofrecer tus servicios como asesor o profesor particular ponte en contacto con nosotros</label>
         </Termsof>
 
         <FormStyle>
@@ -18,8 +18,8 @@ export const Form = () =>{
                 <input type="text" name="_honey" className="dn"/>
                     <input type="hidden" name="_next" value="https://teasesoro.cl"/>
                         <input type="hidden" name="_captcha" value="false"/>
-                    <label className="titlelabel">¡Agendemos una reunión!</label>
-                            <input type="hidden" name="_subject" value="Atomics"/>
+                    <label className="titlelabel">¡Hablemos!</label>
+                            <input type="hidden" name="_subject" value="teasesoro.cl"/>
                                 <div className="form-control">
                                     <input type="text" name="Name" id="Name" required/>
                                         <label>Nombre</label>

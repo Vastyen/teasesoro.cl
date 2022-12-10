@@ -4,7 +4,7 @@ import Card, { personFactory } from './Card';
 
 export default function Cards(){
     const p1 = personFactory.build({
-        image: "./img/P1.jpeg",
+        image: "./public/p1.jpeg",
         name: "Diego Riquelme",
         area: "Estudiante de Ingeniería de Ejecución en Computación e Informática.",
         description: "Clases Particulares de FPI, FCYP y Paradigmas de la Programación.",

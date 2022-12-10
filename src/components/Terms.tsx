@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const Terms = () =>{
 
 
-    const termsofuse = "Teasesoro.cl es una plataforma de anuncios. El creador de un anuncio debe certificar su identidad para para cumplir aceptar los términos de uso y la responsabilidad legal. Éste proceso de certificación implica la presentación de una copia digital de un documento legal vigente que certifique la identidad de la persona, ya sea carnet de identidad, pasaporte o licencia de conducir. Éste documento es solicitado de forma obligatoria durante el proceso de publicación de anuncio. El anunciante es responsable de todo el contenido expuesto en su anuncio incluso su cumplimiento y acepta la responsabilidad legal ante cualquier hecho que pueda ocasionar un daño de cualquier tipo a un usuario que adquiera los servicios anunciados."
+    const termsofuse = "Teasesoro.cl es una plataforma de anuncios. El creador de un anuncio debe certificar su identidad para para cumplir aceptar los términos de uso y la responsabilidad legal. Éste proceso de certificación implica la presentación de una copia digital de la credencial universitaria de la Universidad de Santiago de Chile. Éste documento es solicitado de forma obligatoria durante el proceso de publicación de anuncio. El anunciante es responsable de todo el contenido expuesto en su anuncio incluso su cumplimiento y acepta la responsabilidad legal ante cualquier hecho que pueda ocasionar un daño de cualquier tipo a un usuario que adquiera los servicios anunciados."
 
     return <Fragment>
         <div id="condiciones">
