@@ -45,21 +45,25 @@ const FormStyle = styled.div`
     display:none;
 }
 
+
+
 .titlelabel{
     font-size: 1.8em;
     display:block;
     color: white;
     padding: 2vh;
     font-we
-    padding-bottom: 0;
 }
 
 .styledForm {
     position: relative;
 }
 
+
+
 .form {
     margin:0 auto;
+   
     width: 60vw;
     margin-inline: 20vw;
     font-family: 'Noto Sans Mono', monospace;
@@ -172,9 +176,8 @@ span {
 @media (max-width: 621px) {
     .form {
         margin: 4vw;
+        margin-top: 7vh;
         width: 90vw;
-
-    }
     
 }
 `

@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Bodys from './components/Bodys';
 import Cards from './components/Cards';
 import { Form } from './components/Form';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
       <Cards/>
       <Form/>
       <Terms/>   
+      <Footer></Footer>
       </Fragment>
+  
 
   );
 }

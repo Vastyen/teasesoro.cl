@@ -26,6 +26,7 @@ export const Termsof = styled.div`
     justify-content: center;
     margin:5%;
     width:90%;
+    margin-top: 7vh;
     align-items: center;
     text-align: center;
     display: block;
